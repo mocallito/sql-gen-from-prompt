@@ -1,0 +1,45 @@
+Result Set Batch 1 - Query 1
+========================================
+
+COLUMN_NAME      TABLE_NAME 
+---------------  -----------
+region_id        regions    
+region_name      regions    
+country_id       countries  
+country_name     countries  
+region_id        countries  
+city             locations  
+country_id       locations  
+location_id      locations  
+postal_code      locations  
+state_province   locations  
+street_address   locations  
+job_id           jobs       
+job_title        jobs       
+max_salary       jobs       
+min_salary       jobs       
+department_id    departments
+department_name  departments
+location_id      departments
+commission_pct   employees  
+department_id    employees  
+email            employees  
+employee_id      employees  
+first_name       employees  
+hire_date        employees  
+job_id           employees  
+last_name        employees  
+manager_id       employees  
+phone_number     employees  
+salary           employees  
+dependent_id     dependents 
+employee_id      dependents 
+first_name       dependents 
+last_name        dependents 
+relationship     dependents 
+department_id    job_history
+employee_id      job_history
+end_date         job_history
+job_id           job_history
+start_date       job_history
+((39 rows affected))

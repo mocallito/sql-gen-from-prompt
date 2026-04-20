@@ -1,0 +1,13 @@
+Result Set Batch 1 - Query 1
+========================================
+
+FromTable    FromColumn     ToTable      ToColumn       FK_Name                       
+-----------  -------------  -----------  -------------  ------------------------------
+countries    region_id      regions      region_id      FK__countries__regio__4E88ABD4
+departments  location_id    locations    location_id    FK__departmen__locat__5BE2A6F2
+dependents   employee_id    employees    employee_id    FK__dependent__emplo__6754599E
+employees    department_id  departments  department_id  FK__employees__depar__6383C8BA
+employees    job_id         jobs         job_id         FK__employees__job_i__628FA481
+employees    manager_id     employees    employee_id    FK__employees__manag__6477ECF3
+locations    country_id     countries    country_id     FK__locations__count__5441852A
+((7 rows affected))
